@@ -18,6 +18,6 @@ print(" ")
 import socket
 socket.setdefaulttimeout(2)
 s = socket.socket()
-s.connect(("192.168.0.21",22))
+s.connect(("your-IP",22))
 banner = s.recv(1024)
 print(banner)
